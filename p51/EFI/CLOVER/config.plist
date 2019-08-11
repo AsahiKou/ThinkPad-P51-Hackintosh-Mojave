@@ -676,7 +676,7 @@
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
-		<string>macOS</string>
+		<string>LastBootedVolume</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
@@ -686,7 +686,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>10</integer>
+		<integer>3</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -749,6 +749,8 @@
 		<array>
 			<string>Windows</string>
 			<string>BOOTX64.EFI</string>
+			<string>Recovery</string>
+			<string>Legacy</string>
 		</array>
 		<key>Language</key>
 		<string>zh_CN:0</string>
@@ -775,7 +777,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>black_green</string>
+		<string>blackbc</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -909,6 +911,8 @@
 		<string>Apple Inc.</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardType</key>
+		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
@@ -921,18 +925,18 @@
 		<string>185.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
-		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3F</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFC0FE13F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>Mobile</key>
 		<true/>
-		<key>PlatformFeature</key>
-		<string>0x1A</string>
 		<key>ProductName</key>
 		<string>MacBookPro14,3</string>
+		<key>Version</key>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
