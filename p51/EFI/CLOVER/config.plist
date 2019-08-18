@@ -878,7 +878,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>USB port limit patch 10.14.1 10.14.2</string>
+				<string>USB port limit patch </string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
