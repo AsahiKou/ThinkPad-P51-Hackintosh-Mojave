@@ -1,5 +1,12 @@
 # ThinkPad P51 Hackintosh
 
+>2019.12.6
+>
+>* 系统版本更新至 Catalina 15.2，相关 EFI 到新的 [repo](https://github.com/AsahiHuang/ThinkPadP51-Hackintosh-Catalina)
+>* QQ讨论群：951898568
+
+
+
 > 2019.8.11 
 >
 > * 系统版本已更新至Mojava 10.14.6 18G87，升级clover版本至5032
